@@ -13,15 +13,15 @@ int main(void)
 	{
 		putchar(num);
 	}
-		if (num == '9')
-		{
-			break;
-		}
-		else
-		{
-			putchar(',');
-			putchar(' ');
-		}
-		putchar('\n');
-		return (0);
+	if (num == '9')
+	{
+		break;
+	}
+	else
+	{
+		putchar(',');
+		putchar(' ');
+	}
+	putchar('\n');
+	return (0);
 }
